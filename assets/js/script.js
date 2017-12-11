@@ -99,7 +99,7 @@ console.log(firebase);
 
 //Global variables===================================================================================================================================================
 
-let emailToken = " 24bbb5ae-2e4e-4134-b6c5-c99d05d67ea3 ",
+let emailToken = "",
     cUser = localStorage.getItem("userName"),
     // connects to database
     database = firebase.database(),
