@@ -86,12 +86,12 @@ $(document).ready(function () {
 
 // Initialize Firebase=================================================================================================================================================
 var config = {
-    apiKey: "AIzaSyAxJKb68oS4OtyRyWuwNtJ39XFcuCAkVSc",
-    authDomain: "licensetracker-13f89-a629a.firebaseapp.com",
-    databaseURL: "https://licensetracker-13f89-a629a.firebaseio.com",
-    projectId: "licensetracker-13f89-a629a",
-    storageBucket: "licensetracker-13f89-a629a.appspot.com",
-    messagingSenderId: "492716446247"
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: ""
 };
 firebase.initializeApp(config);
 console.log(firebase);
